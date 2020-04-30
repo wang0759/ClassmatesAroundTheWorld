@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Classmates Around the World</h1>
+<div class="form">
+
+    <form >
+    <table border="1.5">
+        <tr>
+            <th>name</th>
+            <th>city</th>
+            <th>country</th>
+        </tr>
+
+        {% for n in list %}
+        <tr>
+{#        n[0] is namelist; n[1] is urllist; n[0][0]:name;n[0][1]:city;n[0][2]:country#}
+            <td><a href="{{ n[1] }}" target="_blank"> {{ n[0][0] }}</a> </td>
+            <td>{{ n[0][1] }}</td>
+            <td>{{ n[0][2] }}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+
+
+
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ PythonLab11 }}</title>
+
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='original.css') }}">
+
+</head>
+
+<div >
+
+  {% block content %}
+  {% endblock %}
+
+</div>
+
+
+</html>

@@ -1,0 +1,73 @@
+
+* { box-sizing: content-box; }
+
+body {
+    font-family: 'Verdana', sans-serif;
+    font-size: 100%;
+    color: #000;
+    margin-left: 2em;
+    text-align: left;
+    background: antiquewhite;
+}
+
+form{
+    text-align: left;
+    display: inline-block;
+    margin:2em;
+    width: 100%;
+    height:80%;
+    font-size: larger;
+
+}
+
+
+
+
+select#lstNames {
+    height: 25px;
+    width: auto;
+    font-size: large;
+}
+
+
+#container{
+    border: 10px solid red;
+    margin: auto;
+    max-width: 1024px;
+    padding: 2em 4em;
+    /*background: salmon;*/
+    overflow: auto;
+    /*text-align: center;*/
+    align-content: center;
+
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    margin: auto;
+    padding: 1.5em;
+    text-align: left;
+}
+
+p, li {
+    font-size: 1.5em;
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+
+a {
+    color: #009;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0cc;
+    text-decoration: underline;
+}

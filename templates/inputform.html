@@ -1,0 +1,12 @@
+
+{% extends "base.html" %}
+{% block content %}
+    <h1>Classmates Around the World</h1>
+    <form  action="" method="post">
+        {{ form.hidden_tag() }}
+
+        <div class="myform">
+            {{ form.lstNames }}{{ form.Search }}
+        </div>
+    </form>
+{% endblock %}
