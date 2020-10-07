@@ -7,6 +7,7 @@ Using Pycharm, create a flask application with three routes:
 # Images of Finished Project
 ![](images/ClassmatesAroundTheWorld.png)
 ![](images/findSpecificStudentbyName.png)
+### By selecting the name and clicking search, it will take you to the map of the city by google maps
 ![](images/ListOfAllStudents.png)
-## By clicking the name, it will take you to the map of the city by google maps
+### By clicking any name, it will take you to the map of the city by google maps
 ![](images/displayTheCityStudent.png)
