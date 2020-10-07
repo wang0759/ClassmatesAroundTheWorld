@@ -8,4 +8,5 @@ Using Pycharm, create a flask application with three routes:
 ![](images/ClassmatesAroundTheWorld.png)
 ![](images/findSpecificStudentbyName.png)
 ![](images/ListOfAllStudents.png)
+## By clicking the name, it will take you to the map of the city by google maps
 ![](images/displayTheCityStudent.png)
